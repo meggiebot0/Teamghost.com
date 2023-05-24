@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Guilda do Free Fire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .guilda-info {
+            display: flex;
+            justify-content: space-between;
+        }
+        .guilda-info-item {
+            flex-basis: 48%;
+        }
+        .guilda-info-item h2 {
+            margin-top: 0;
+        }
+        .whatsapp-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .whatsapp-buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #25D366;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guilda Team Ghost💀</h1>
+    </header>
+    <main>
+        <h2>Sobre a nossa guilda</h2>
+        <p>Bem-vindo ao site da nossa guilda do Free Fire. Aqui você encontrará informações sobre o nosso time, os jogadores, estratégias, e muito mais.</p>
+        <h2>Informações da guilda</h2>
+        <div class="guilda-info">
+            <div class="guilda-info-item">
+                <h3>Nome da guilda</h3>
+                <p>Nome da guilda:💀Team Ghost💀</p>
+                <p>Nível da guilda: 10</p>
+            </div>
+            <div class="guilda-info-item">
+                <h3>Jogadores</h3>
+                <p>Quantidade de jogadores: 10</p>
+                <p>Ranqueamento: Mestre>Elite</p>
+            </div>
+        </div>
+        <h2>Últimas notícias</h2>
+        <ul>
+            <li>
+                <h3>Evento de Treinamento</h3>
+                <p>Realizaremos um evento de treinamento no dia 27/05/2023 para melhorar nossas habilidades de jogo. Esteja Lá!.</p>
+            </li>
+            <li>
+                <h3>Torneio Local</h3>
+                <p>Participaremos de um torneio local no próximo fim de semana. Vamos treinar duro para alcançar a vitória!</p>
+            </li>
+        </ul>
+        <h2>Contato</h2>
+        <p>Entre em contato com os líderes da nossa guilda pelo WhatsApp:</p>
+        <div class="whatsapp-buttons">
+            <a href="https://wa.me/5527999820504" target="_blank">Entrar em contato com Henzo</a>
+            <a href="https://wa.me/559184458011" target="_blank">Entrar em contato com Henrique</a>
+        </div>
+    </main>
+</body>
+</html>
